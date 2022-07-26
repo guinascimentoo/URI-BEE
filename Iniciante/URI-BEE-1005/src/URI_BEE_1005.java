@@ -9,8 +9,6 @@ public class URI_BEE_1005 {
         double nota1 = sc.nextDouble();
         double nota2 = sc.nextDouble();
 
-        double media = ((nota1 * 3.5) + (nota2 * 7.5)) /11;
-
-        System.out.printf("MEDIA = %.5f%n", media);
+        System.out.printf("MEDIA = %.5f%n", (((nota1 * 3.5) + (nota2 * 7.5)) /11));
     }
 }

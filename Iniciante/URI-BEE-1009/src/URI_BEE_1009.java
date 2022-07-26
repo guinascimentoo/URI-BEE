@@ -10,8 +10,6 @@ public class URI_BEE_1009 {
         double salarioFixo = sc.nextDouble();
         double totalVendas = sc.nextDouble();
 
-        double comissao = (totalVendas * 0.15) + salarioFixo;
-
-        System.out.printf("TOTAL = R$ %.2f%n", comissao);
+        System.out.printf("TOTAL = R$ %.2f%n", ((totalVendas * 0.15) + salarioFixo));
     }
 }

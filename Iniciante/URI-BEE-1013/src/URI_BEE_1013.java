@@ -8,11 +8,8 @@ public class URI_BEE_1013 {
         int B = sc.nextInt();
         int C = sc.nextInt();
 
-        int maiorAB = (A+B+Math.abs(A-B))/2;
-        int maiorBC = (maiorAB + C + Math.abs(maiorAB - C)) / 2;
+        int maiorAB = (A + B + Math.abs(A - B)) / 2;
 
-        System.out.println(maiorBC +" eh o maior");
-
-        sc.close();
+        System.out.println(((maiorAB + C + Math.abs(maiorAB - C)) / 2) +" eh o maior");
     }
 }

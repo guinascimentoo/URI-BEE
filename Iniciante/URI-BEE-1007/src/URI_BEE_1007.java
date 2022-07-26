@@ -9,8 +9,6 @@ public class URI_BEE_1007 {
         int C = sc.nextInt();
         int D = sc.nextInt();
 
-        int diferenca = (A * B - C * D);
-
-        System.out.println("DIFERENCA = " + diferenca);
+        System.out.println("DIFERENCA = " + (A * B - C * D));
     }
 }

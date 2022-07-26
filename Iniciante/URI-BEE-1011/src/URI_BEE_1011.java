@@ -9,8 +9,6 @@ public class URI_BEE_1011 {
         double pi = 3.14159;
         double R = sc.nextDouble();
 
-        double volume = (4/3.0) * pi * (R * R * R);
-
-        System.out.printf("VOLUME = %.3f%n", volume);
+        System.out.printf("VOLUME = %.3f%n", ((4/3.0) * pi * (R * R * R)));
     }
 }

@@ -9,8 +9,6 @@ public class URI_BEE_1014 {
         int km = sc.nextInt();
         double litrosGasolina = sc.nextDouble();
 
-        double consumo = km / litrosGasolina;
-
-        System.out.println(String.format("%.3f km/l", consumo));
+        System.out.println(String.format("%.3f km/l", (km / litrosGasolina)));
     }
 }

@@ -6,8 +6,6 @@ public class URI_BEE_1016 {
 
         int km = sc.nextInt();
 
-        int minutos = km * 2;
-
-        System.out.println(minutos + " minutos");
+        System.out.println((km * 2) + " minutos");
     }
 }

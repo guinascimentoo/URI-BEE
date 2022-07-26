@@ -7,8 +7,6 @@ public class URI_BEE_1004 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        int PROD = num1 * num2;
-
-        System.out.println("PROD = " + PROD);
+        System.out.println("PROD = " + (num1 * num2));
     }
 }

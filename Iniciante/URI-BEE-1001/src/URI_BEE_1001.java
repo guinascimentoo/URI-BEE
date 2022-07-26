@@ -7,9 +7,7 @@ public class URI_BEE_1001 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        int x = num1 + num2;
-
-        System.out.println("X= " + x);
+        System.out.println("X = " + (num1 + num2));
 
         sc.close();
     }

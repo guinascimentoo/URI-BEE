@@ -14,8 +14,6 @@ public class URI_BEE_1010 {
         int numeroPecas2 = sc.nextInt();
         double valorUnitario2 = sc.nextDouble();
 
-        double valorPago = (numeroPecas1 * valorUnitario1) + (numeroPecas2 * valorUnitario2);
-
-        System.out.printf("VALOR A PAGAR: R$ %.2f%n", valorPago);
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", ((numeroPecas1 * valorUnitario1) + (numeroPecas2 * valorUnitario2)));
     }
 }

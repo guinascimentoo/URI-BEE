@@ -10,9 +10,7 @@ public class URI_BEE_1008 {
         int horasTrabalhadas = sc.nextInt();
         double valorPorHora = sc.nextDouble();
 
-        double salario = horasTrabalhadas * valorPorHora;
-
         System.out.println("NUMBER = " + num);
-        System.out.printf("SALARY = U$ %.2f%n", salario);
+        System.out.printf("SALARY = U$ %.2f%n", (horasTrabalhadas * valorPorHora));
     }
 }

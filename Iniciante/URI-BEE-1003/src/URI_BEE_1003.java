@@ -7,8 +7,6 @@ public class URI_BEE_1003 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        int soma = num1 + num2;
-
-        System.out.println("SOMA = " + soma);
+        System.out.println("SOMA = " + (num1 + num2));
     }
 }

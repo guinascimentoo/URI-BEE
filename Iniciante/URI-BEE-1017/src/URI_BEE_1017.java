@@ -9,8 +9,6 @@ public class URI_BEE_1017 {
         double horas = sc.nextInt();
         double km = sc.nextInt();
 
-        double litros = (horas * km) / 12;
-
-        System.out.printf("%.3f%n", litros);
+        System.out.printf("%.3f%n", ((horas * km) / 12));
     }
 }

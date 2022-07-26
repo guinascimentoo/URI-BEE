@@ -9,10 +9,6 @@ public class URI_BEE_1002 {
         double n = 3.14159;
         double raio = sc.nextDouble();
 
-        double area = n * (raio * raio);
-
-        System.out.printf("A=%.4f%n", area);
-
-        sc.close();
+        System.out.printf("A=%.4f%n", n * (raio * raio));
     }
 }
