@@ -10,6 +10,6 @@ public class URI_BEE_1013 {
 
         int maiorAB = (A + B + Math.abs(A - B)) / 2;
 
-        System.out.println(((maiorAB + C + Math.abs(maiorAB - C)) / 2) +" eh o maior");
+        System.out.println(((maiorAB + C + Math.abs(maiorAB - C)) / 2) + " eh o maior");
     }
 }
