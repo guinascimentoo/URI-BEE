@@ -25,11 +25,9 @@ public class URI_BEE_1061 {
         int diaSegundos2 = Integer.parseInt(horarioSplitSDia[2]);
 
         diaSegundos1 = (dia1 * 24 * 60 * 60) + (diaHora1 * 60 * 60) + (diaMinutos1 * 60) + (diaSegundos1);
-
         diaSegundos2 = (dia2 * 24 * 60 * 60) + (diahora2 * 60 * 60) + (diaMinutos2 * 60) + (diaSegundos2);
 
         int  diferencaSegundos = diaSegundos2 - diaSegundos1;
-
         int diferencaSegundosAtual = diferencaSegundos;
 
         int dias = diferencaSegundosAtual / (24 * 60 * 60);
