@@ -4,8 +4,7 @@ public class URI_BEE_1116 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double n1, n2;
-        double div;
+        double n1, n2, div;
 
         int n = sc.nextInt();
 
